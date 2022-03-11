@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Trabajo Practico N2",
+    "liveServer.settings.port": 5501
+  }
+}
