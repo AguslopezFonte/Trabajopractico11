@@ -8,47 +8,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../estilo.css">
+<link rel="stylesheet" href="../estilo.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Sobre Nosotros</title>
 </head>
 <body>
     <header>
         <h1>Sobre Nosotros</h1>
     </header>
-    <div class="padre2">
-        <div class="hijo nav"><h2><nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="SobreNotros.html">Sobre Nosotros</a></li>
-                <li><a href="Servicios.html">Servicios</a></li>
-                <li><a href="Muestras.html">Muestras</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </h2>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="SobreNotros.html">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Muestras.html">Muestras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contacto.html"">Contacto</a>
+          </li>
+      </ul>
+      <main class="container"></main>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="hijo prod"><h2>Conectar</h2>
-            <img src="../Imagenes/gente1.jpg" alt="imagen de gente tocando">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../Imagenes/inspirar.jpg" class="d-block w-100" alt="Imagen inspiradora">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagenes/crear.jpg" class="d-block w-100" alt="image creativa">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagenes/gente1.jpg" class="d-block w-100" alt="imagen persona tocando">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+        <div class="hijo prod"><h2>Conoce nuestro proyecto</h2>
+            <div class="card translate">
+
             </div>
-        <div class="hijo extras"><h2>Inspirar</h2>
-             <img src="../Imagenes/inspirar.jpg" alt="ImagenInspiradora">
-        <div class="hijo aside"><h2>Educar</h2>
-            <img src="../Imagenes/crear.jpg" alt="ImagenCreativa">
+                             <section class=sec1>
+                    <p> NMS EMPRESAS es un proyecto que busca potenciar distintas características de un grupo determinado dentro de una empresa a través de la música.
+                Somos convocados por dicha empresa para pensar y llevar a cabo un proyecto creativo que se adapte a su dinámica y que tenga la particularidad de ser innovador en cuanto a procesos, ejecución y alcance de objetivos.
+                
+                Trabajamos sobre la fijación de sus objetivos para el año 2022, con especial foco en seguridad y orientación al cliente basado en el fortalecimiento del trabajo en equipo de los colaboradores.
+                
+                Adaptamos nuestro Ensamble Nueva música para contemplar y abarcar las distintas experiencias y formaciones, y que a partir de éstas, mejore la forma de relacionarse a través de la colaboración y el trabajo en equipo.
+                Son encuentros donde con nuestras dinámicas en el taller, los participantes logran interactuar y trabajar en equipo en menos de una hora.
+                Durante el proceso los participantes desarrollan una relación de trabajo donde el aporte de todos es importante y a partir de este compromiso mutuo comienzan a conocer más uno del otro.  
+                </p>
+        </section>
     </div>
-            <section class=sec1>
-                <p> NMS EMPRESAS es un proyecto que busca potenciar distintas características de un grupo determinado dentro de una empresa a través de la música.
-            Somos convocados por dicha empresa para pensar y llevar a cabo un proyecto creativo que se adapte a su dinámica y que tenga la particularidad de ser innovador en cuanto a procesos, ejecución y alcance de objetivos.
-            
-            Trabajamos sobre la fijación de sus objetivos para el año 2022, con especial foco en seguridad y orientación al cliente basado en el fortalecimiento del trabajo en equipo de los colaboradores.
-            
-            Adaptamos nuestro Ensamble Nueva música para contemplar y abarcar las distintas experiencias y formaciones, y que a partir de éstas, mejore la forma de relacionarse a través de la colaboración y el trabajo en equipo.
-            Son encuentros donde con nuestras dinámicas en el taller, los participantes logran interactuar y trabajar en equipo en menos de una hora.
-            Durante el proceso los participantes desarrollan una relación de trabajo donde el aporte de todos es importante y a partir de este compromiso mutuo comienzan a conocer más uno del otro.  
-            </p>
-    </section>
-    </div>
-        <div class="hijo footer">
-            
-            <h2>Home Sobre Nosotros Servicios Contacto</h2></div>
-</main>
+  <main>
 </body>
 </html>

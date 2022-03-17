@@ -22,7 +22,7 @@ p {
   font-family: "Comfortaa", cursive;
   font-size: 1rem;
   line-height: 1.5;
-  padding: 10px;
+  padding: 3px;
   margin: 20px;
 }
 .menu li {
@@ -59,14 +59,11 @@ h3 {
 li {
   font-family: "Bebas Neue", cursive;
 }
-header {
-  background-color: rgb(134, 198, 218);
-}
 .trans1 {
   width: 250px;
   height: 150px;
   opacity: 0.4;
-  border: 2px double rgb(255, 255, 255);
+  border-radius: 2px double rgb(10, 10, 10);
   flex: auto;
   transition: all 2s ease;
 }
@@ -81,39 +78,33 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.paraque {
-  text-align: center;
-}
-.empresas {
-  text-align: center;
-}
-.peq {
+.textopeq {
   background-color: whitesmoke;
   height: 200px;
   width: 300px;
   padding: 5px;
   margin: 10px;
-  border: 3px rgb(146, 28, 28) solid;
+  border-radius: 3px rgb(146, 28, 28) solid;
   overflow: auto;
   display: inline-block;
 }
-.med {
+.textomed {
   background-color: whitesmoke;
   height: 200px;
   width: 300px;
   padding: 5px;
   margin: 10px;
-  border: 3px rgb(146, 28, 28) solid;
+  border-radius: 3px rgb(146, 28, 28) solid;
   overflow: auto;
   display: inline-block;
 }
-.gran {
+.textogran {
   background-color: whitesmoke;
   height: 200px;
   width: 300px;
   padding: 5px;
   margin: 10px;
-  border: 3px rgb(146, 28, 28) solid;
+  border-radius: 3px rgb(146, 28, 28) solid;
   overflow: auto;
   display: inline-block;
 }
@@ -126,7 +117,7 @@ main {
   margin: 20px auto;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: repeat(3 1fr);
+  grid-template-rows: repeat(1fr);
   grid-template-areas:
     "header header header"
     "prod extras aside"
@@ -179,17 +170,15 @@ main {
 .prod {
   background-color: rgba(72, 180, 162, 0.199);
   grid-area: prod;
+  text-align: center;
 }
 .extras {
   background-color: rgba(72, 180, 162, 0.199);
   grid-area: extras;
+  text-align: center;
 }
 .aside {
   background-color: rgba(72, 180, 162, 0.199);
   grid-area: aside;
   text-align: center;
-}
-.footer {
-  background-color: rgba(72, 180, 162, 0.199);
-  grid-area: footer;
 }
